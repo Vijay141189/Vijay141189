@@ -139,3 +139,5 @@ Interested in **Azure, Terraform, DevSecOps, CI/CD, or practical AI tooling**? I
 *Build securely. Automate thoughtfully. Stay curious.*
 
 </div>
+
+
