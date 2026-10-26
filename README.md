@@ -2,15 +2,15 @@
 
 # Vijay Shankar
 
-### DevSecOps & Azure DevOps Engineer
+### DevSecOps Engineer · Azure DevOps · Cloud Automation
 
-**Building secure, automated cloud platforms — from infrastructure as code to dependable delivery pipelines.**
+**I build secure cloud foundations and delivery workflows that teams can trust.**
 
-9 years in technology · 5 years focused on Azure DevOps
+9 years in technology &nbsp;|&nbsp; 5 years in Azure DevOps
 
 <p>
   <a href="https://www.linkedin.com/in/vijayshankarshaha"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:vss141189@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:vss141189@gmail.com"><img src="https://img.shields.io/badge>Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <img src="https://komarev.com/ghpvc/?username=Vijay141189&label=PROFILE%20VIEWS&color=0e75b6&style=for-the-badge" alt="Profile views"/>
 </p>
 
@@ -18,23 +18,50 @@
 
 ---
 
-## About
+## 💻 A little about how I work
 
-I work across **Azure, DevOps, infrastructure automation, and DevSecOps**, with a focus on making cloud delivery repeatable and security-conscious. I use Terraform and CI/CD practices to help teams build, validate, and deliver infrastructure with confidence.
+```text
+vijay@cloud-platform:~$ ./engineering-focus
 
-I’m also exploring how **AI agents, retrieval-augmented generation (RAG), and MCP** can complement secure engineering workflows. I share practical projects and learning here as I build.
+  CLOUD       Azure, governance, networking, monitoring
+  AUTOMATION  Terraform, reusable infrastructure, CI/CD
+  SECURITY    Shift-left checks, safer configuration, secret scanning
+  NEXT        AI agents, RAG, MCP — learning by building
+```
 
-## Focus Areas
+I’m an Azure DevOps and DevSecOps engineer with **9 years in technology, including 5 years focused on Azure DevOps**. I enjoy turning cloud and delivery requirements into infrastructure and pipelines that are repeatable, understandable, and security-conscious.
 
-- ☁️ **Cloud & platform engineering** — Microsoft Azure, networking, governance, and monitoring
-- 🏗️ **Infrastructure as code** — Terraform, reusable modules, and Bicep
-- 🔄 **CI/CD** — pipeline automation with Azure DevOps, GitHub Actions, Jenkins, and Harness
-- 🛡️ **DevSecOps** — shift-left checks for code, infrastructure, and secrets
-- 🤖 **AI exploration** — MCP, RAG, and AI agents for practical engineering use cases
+I’m also exploring **AI agents, retrieval-augmented generation (RAG), and MCP**—and how they might support real-world cloud and security workflows. I’m sharing that learning openly as I build.
 
-## Toolkit
+## ⚡ What I focus on
 
-**Cloud & IaC**
+| Area | How I approach it |
+| --- | --- |
+| ☁️ Cloud platforms | Azure foundations, networking, governance, and observability |
+| 🏗️ Infrastructure as code | Terraform, modular patterns, and Bicep |
+| 🔄 Delivery automation | CI/CD workflows with Azure DevOps, GitHub Actions, Jenkins, and Harness |
+| 🛡️ DevSecOps | Bring code, infrastructure, and secret checks into the delivery workflow |
+| 🤖 Applied AI | Learn agent, RAG, and MCP patterns through practical experiments |
+
+## 🏛️ Secure delivery, end to end
+
+The diagram below represents the engineering workflow I focus on—not a claim that every stage is implemented in every project.
+
+```mermaid
+flowchart LR
+    A[Code & Terraform] --> B[CI/CD pipeline]
+    B --> C{Validate and scan}
+    C -->|Pass| D[Review infrastructure plan]
+    C -->|Findings| E[Fix and revalidate]
+    E --> B
+    D --> F[Deploy to Azure]
+    F --> G[Monitor and learn]
+    G -. feedback .-> A
+```
+
+## 🧰 Tools I work with
+
+**Cloud & infrastructure**
 
 ![Microsoft Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
@@ -56,7 +83,7 @@ I’m also exploring how **AI agents, retrieval-augmented generation (RAG), and 
 ![Veracode](https://img.shields.io/badge/Veracode-00AEEF?style=flat-square&logoColor=white)
 ![Black Duck](https://img.shields.io/badge/Black_Duck-000000?style=flat-square&logoColor=white)
 
-**Scripting, systems & observability**
+**Scripting, systems & monitoring**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
@@ -65,27 +92,29 @@ I’m also exploring how **AI agents, retrieval-augmented generation (RAG), and 
 ![Azure Monitor](https://img.shields.io/badge/Azure_Monitor-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Log Analytics](https://img.shields.io/badge/Log_Analytics-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
-## Selected Projects
+## 🚀 Selected projects
 
-| Project | What you’ll find |
+| Project | Focus |
 | --- | --- |
-| [Azure Landing Zone with Terraform](https://github.com/Vijay141189/azure-landing-zone-terraform) | Azure landing-zone infrastructure managed with Terraform |
-| [Terraform Azure Landing Zone](https://github.com/Vijay141189/terraform-azure-landing-zone) | Another landing-zone implementation and infrastructure-as-code work |
-| [Terraform Child Modules](https://github.com/Vijay141189/Terraform-Child-module) | Landing-zone code organized around reusable Terraform modules |
-| [Governance & Alerting](https://github.com/Vijay141189/New-project-with-alerting) | Terraform project exploring governance and alerting |
-| [Real Estate Infrastructure](https://github.com/Vijay141189/Real-state-project) | Terraform-based infrastructure project |
+| [Azure Landing Zone with Terraform](https://github.com/Vijay141189/azure-landing-zone-terraform) | Azure landing-zone infrastructure as code |
+| [Terraform Azure Landing Zone](https://github.com/Vijay141189/terraform-azure-landing-zone) | Terraform-based Azure landing-zone work |
+| [Terraform Child Modules](https://github.com/Vijay141189/Terraform-Child-module) | Landing-zone code organized with reusable child modules |
+| [Governance & Alerting](https://github.com/Vijay141189/New-project-with-alerting) | Terraform project focused on governance and alerting |
+| [Real Estate Infrastructure](https://github.com/Vijay141189/Real-state-project) | Terraform infrastructure project |
 
-Explore more in my [GitHub repositories](https://github.com/Vijay141189?tab=repositories).
+These are learning and engineering projects; visit each repository for its code and implementation details. [Browse all repositories →](https://github.com/Vijay141189?tab=repositories)
 
-## Currently Exploring
+## 🤖 Exploring AI for engineering
 
-- **AI agents** — agent concepts and practical workflows
-- **RAG** — grounding responses in relevant knowledge sources
-- **MCP** — connecting AI applications with tools and context
+| Topic | What I’m learning |
+| --- | --- |
+| **AI agents** | How tool-using agents can support repeatable engineering tasks |
+| **RAG** | Grounding generated answers in relevant, trusted information |
+| **MCP** | Connecting AI applications with tools and context through a common protocol |
 
-My goal is to understand where these tools can add real value to cloud operations and secure software delivery.
+My aim is to explore these ideas responsibly and find practical ways they can complement cloud operations and secure delivery.
 
-## GitHub
+## 📊 GitHub at a glance
 
 <div align="center">
 
@@ -96,15 +125,15 @@ My goal is to understand where these tools can add real value to cloud operation
 
 </div>
 
-## Let’s Connect
+## 📫 Let’s connect
 
-Interested in **Azure, DevSecOps, CI/CD, Terraform, or practical AI tooling**? Let’s connect.
+Open to conversations about **Azure, DevSecOps, CI/CD, Terraform, and practical AI tooling**.
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/vijayshankarshaha)
 - 📧 [Email](mailto:vss141189@gmail.com)
 
 <div align="center">
 
-*Secure by design. Automated by default. Always learning.*
+*Secure the foundation. Automate the path. Keep learning.*
 
 </div>
