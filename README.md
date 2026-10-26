@@ -1,65 +1,64 @@
 <div align="center">
 
-# Vijay Shankar
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:071A2F,50:075985,100:06B6D4&height=220&section=header&text=VIJAY%20SHANKAR&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=DEVSECOPS%20%7C%20AZURE%20DEVOPS%20%7C%20CLOUD%20AUTOMATION&descSize=16&descAlignY=60" width="100%" alt="Vijay Shankar — DevSecOps, Azure DevOps, and Cloud Automation"/>
 
-### DevSecOps Engineer · Azure DevOps · Cloud Automation
-
-**I build secure cloud foundations and delivery workflows that teams can trust.**
-
-9 years in technology &nbsp;|&nbsp; 5 years in Azure DevOps
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=780&lines=9+Years+in+Technology;5+Years+Focused+on+Azure+DevOps;Infrastructure+as+Code+%7C+CI%2FCD+%7C+DevSecOps;Currently+Exploring+AI+Agents%2C+RAG+%26+MCP" alt="A short introduction to my engineering focus"/>
 
 <p>
-  <a href="https://www.linkedin.com/in/vijayshankarshaha"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:vss141189@gmail.com"><img src="https://img.shields.io/badge>Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=Vijay141189&label=PROFILE%20VIEWS&color=0e75b6&style=for-the-badge" alt="Profile views"/>
+  <a href="https://www.linkedin.com/in/vijayshankarshaha"><img src="https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/></a>
+  <a href="mailto:vss141189@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Vijay"/></a>
+</p>
+
+<p>
+  <a href="#about">About</a> &nbsp;·&nbsp;
+  <a href="#focus">Focus</a> &nbsp;·&nbsp;
+  <a href="#toolkit">Toolkit</a> &nbsp;·&nbsp;
+  <a href="#projects">Projects</a> &nbsp;·&nbsp;
+  <a href="#ai">AI learning</a> &nbsp;·&nbsp;
+  <a href="#github">GitHub</a>
 </p>
 
 </div>
 
 ---
 
-## 💻 A little about how I work
+<a id="about"></a>
+## 👋 About me
+
+I’m **Vijay Shankar**, an Azure DevOps and DevSecOps engineer with **9 years in technology, including 5 years focused on Azure DevOps**. I enjoy building cloud infrastructure and delivery workflows that are repeatable, maintainable, and security-conscious.
+
+My work and projects bring together **Azure, Terraform, CI/CD, and shift-left security**. I’m also learning how **AI agents, retrieval-augmented generation (RAG), and MCP** could be useful in real engineering workflows.
 
 ```text
-vijay@cloud-platform:~$ ./engineering-focus
-
-  CLOUD       Azure, governance, networking, monitoring
-  AUTOMATION  Terraform, reusable infrastructure, CI/CD
-  SECURITY    Shift-left checks, safer configuration, secret scanning
-  NEXT        AI agents, RAG, MCP — learning by building
+vijay@cloud:~$ cat engineering-principles.txt
+secure the foundation  →  automate the repeatable  →  keep learning
 ```
 
-I’m an Azure DevOps and DevSecOps engineer with **9 years in technology, including 5 years focused on Azure DevOps**. I enjoy turning cloud and delivery requirements into infrastructure and pipelines that are repeatable, understandable, and security-conscious.
-
-I’m also exploring **AI agents, retrieval-augmented generation (RAG), and MCP**—and how they might support real-world cloud and security workflows. I’m sharing that learning openly as I build.
-
+<a id="focus"></a>
 ## ⚡ What I focus on
 
-| Area | How I approach it |
-| --- | --- |
-| ☁️ Cloud platforms | Azure foundations, networking, governance, and observability |
-| 🏗️ Infrastructure as code | Terraform, modular patterns, and Bicep |
-| 🔄 Delivery automation | CI/CD workflows with Azure DevOps, GitHub Actions, Jenkins, and Harness |
-| 🛡️ DevSecOps | Bring code, infrastructure, and secret checks into the delivery workflow |
-| 🤖 Applied AI | Learn agent, RAG, and MCP patterns through practical experiments |
+| ☁️ Cloud & platform | 🏗️ Infrastructure as code | 🛡️ Secure delivery | 🤖 Exploring |
+| --- | --- | --- | --- |
+| Azure, networking, governance, monitoring | Terraform, reusable modules, Bicep | CI/CD checks for code, infrastructure, and secrets | AI agents, RAG, MCP |
 
-## 🏛️ Secure delivery, end to end
+### A secure delivery workflow
 
-The diagram below represents the engineering workflow I focus on—not a claim that every stage is implemented in every project.
+*An illustrative workflow—not a claim that every stage is deployed in every project.*
 
 ```mermaid
 flowchart LR
-    A[Code & Terraform] --> B[CI/CD pipeline]
+    A[Code and Terraform] --> B[CI/CD]
     B --> C{Validate and scan}
-    C -->|Pass| D[Review infrastructure plan]
-    C -->|Findings| E[Fix and revalidate]
-    E --> B
-    D --> F[Deploy to Azure]
-    F --> G[Monitor and learn]
+    C -->|Needs changes| D[Fix and revalidate]
+    D --> B
+    C -->|Ready for review| E[Review plan]
+    E --> F[Deploy to Azure]
+    F --> G[Monitor]
     G -. feedback .-> A
 ```
 
-## 🧰 Tools I work with
+<a id="toolkit"></a>
+## 🧰 Toolkit
 
 **Cloud & infrastructure**
 
@@ -92,48 +91,51 @@ flowchart LR
 ![Azure Monitor](https://img.shields.io/badge/Azure_Monitor-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Log Analytics](https://img.shields.io/badge/Log_Analytics-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
+<a id="projects"></a>
 ## 🚀 Selected projects
 
 | Project | Focus |
 | --- | --- |
 | [Azure Landing Zone with Terraform](https://github.com/Vijay141189/azure-landing-zone-terraform) | Azure landing-zone infrastructure as code |
 | [Terraform Azure Landing Zone](https://github.com/Vijay141189/terraform-azure-landing-zone) | Terraform-based Azure landing-zone work |
-| [Terraform Child Modules](https://github.com/Vijay141189/Terraform-Child-module) | Landing-zone code organized with reusable child modules |
+| [Terraform Child Modules](https://github.com/Vijay141189/Terraform-Child-module) | Landing-zone code organized with reusable modules |
 | [Governance & Alerting](https://github.com/Vijay141189/New-project-with-alerting) | Terraform project focused on governance and alerting |
 | [Real Estate Infrastructure](https://github.com/Vijay141189/Real-state-project) | Terraform infrastructure project |
 
-These are learning and engineering projects; visit each repository for its code and implementation details. [Browse all repositories →](https://github.com/Vijay141189?tab=repositories)
+These repositories show my hands-on engineering and learning. Visit each project for its implementation details.
 
+<a id="ai"></a>
 ## 🤖 Exploring AI for engineering
 
-| Topic | What I’m learning |
-| --- | --- |
-| **AI agents** | How tool-using agents can support repeatable engineering tasks |
-| **RAG** | Grounding generated answers in relevant, trusted information |
-| **MCP** | Connecting AI applications with tools and context through a common protocol |
+```text
+AI agents  →  learning how agents use tools to support engineering tasks
+RAG        →  exploring how to ground answers in relevant knowledge
+MCP        →  learning how AI applications connect to tools and context
+```
 
-My aim is to explore these ideas responsibly and find practical ways they can complement cloud operations and secure delivery.
+I’m at the **exploration and learning stage** with these topics, and interested in practical, responsible applications for cloud operations and secure delivery.
 
-## 📊 GitHub at a glance
+<a id="github"></a>
+## 📊 GitHub
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Vijay141189&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vijay141189&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Vijay141189&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub statistics"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vijay141189&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages"/>
 
-<img src="https://streak-stats.demolab.com?user=Vijay141189&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+<img src="https://streak-stats.demolab.com?user=Vijay141189&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
 
 </div>
 
-## 📫 Let’s connect
+## 💬 Let’s connect
 
-Open to conversations about **Azure, DevSecOps, CI/CD, Terraform, and practical AI tooling**.
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/vijayshankarshaha)
-- 📧 [Email](mailto:vss141189@gmail.com)
+Interested in **Azure, Terraform, DevSecOps, CI/CD, or practical AI tooling**? I’d be happy to connect.
 
 <div align="center">
 
-*Secure the foundation. Automate the path. Keep learning.*
+<a href="https://www.linkedin.com/in/vijayshankarshaha"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:vss141189@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+
+*Build securely. Automate thoughtfully. Stay curious.*
 
 </div>
